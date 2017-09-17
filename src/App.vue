@@ -36,10 +36,6 @@ export default {
           codename: 'semantic-ui'
         },
         {
-          name: 'UIkit',
-          codename: 'uikit'
-        },
-        {
           name: 'Bento UI',
           codename: 'bento-ui'
         }

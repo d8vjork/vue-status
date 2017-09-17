@@ -6,7 +6,6 @@ import Bulma from '@/pages/Bulma'
 import Bootstrap from '@/pages/Bootstrap'
 import BentoUi from '@/pages/BentoUi'
 import SemanticUi from '@/pages/SemanticUi'
-import UiKit from '@/pages/UiKit'
 
 Vue.use(Router)
 
@@ -43,14 +42,6 @@ export default new Router({
       component: SemanticUi,
       meta: {
         stylesheet: 'https://cdn.jsdelivr.net/npm/semantic-ui-css@2.2/semantic.min.css'
-      }
-    },
-    {
-      path: '/uikit',
-      name: 'uikit',
-      component: UiKit,
-      meta: {
-        stylesheet: 'https://cdn.jsdelivr.net/npm/uikit@3.0.0-beta.30/dist/css/uikit.min.css'
       }
     }
   ]
